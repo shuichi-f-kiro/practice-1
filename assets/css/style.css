@@ -70,5 +70,23 @@ section
     font-weight: bold;
     margin: 0 0 20px ;
 }
-.feature-img{}
-.feature-description{}
+.feature-img{
+    margin: 0 0 20px;
+}
+.feature-description{
+    margin: 0;
+    text-align: left;
+}
+
+
+
+.card
+.card-link
+.card-link
+.card-info
+.card-time
+.card-headline
+.card-description
+.avator
+.avator-name
+.avator-image

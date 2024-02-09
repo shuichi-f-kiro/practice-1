@@ -9,6 +9,12 @@ body {
     line-height: 1.5;
     color: #333;
 }
+label, input, textarea, select, select, button {
+    cursor: pointer;
+} 
+button {
+    border: 0;
+}
 
 /* 
 grid 
@@ -164,7 +170,67 @@ button
     box-shadow: 5px 5px 0 #bbb;
     transition: box-shadow .25s;
 }
-
 .button:hover {
     box-shadow: 0 0 0 #bbb;
+}
+.button.button-submission {
+    background: #92d3ca;
+}
+
+/* 
+.selct, .input, .radio, .textarea 
+*/
+.select {
+    border-radius: 5px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    min-width: 500px;
+}
+.input {
+    border-radius: 5px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    min-width: 500px;
+}
+.radio {
+    margin: 0 10px;
+}
+.textarea {
+    border-radius: 5px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    min-width: 500px;
+    min-height: 100px;
+}
+
+/* 
+form 
+*/
+/* .form {} */
+.form-table {
+    margin: 0 auto;
+}
+/* .form-table tr {} */
+.form-table th {
+    padding: 01px;
+    text-align: left;
+}
+.form-table td {
+    padding: 10px;
+}
+.form-button {
+    margin: 20px;
+    text-align: center;
+}
+
+/* 
+works 
+*/
+.works {
+    margin: 40px 0;
+    padding: 20px;
+    text-align: center;
+}
+.works > img {
+    margin: 0 15px;
 }

@@ -55,10 +55,50 @@ section
     font-weight: bold;
     margin: 0 0 40px;    
 }
+.section-button {
+    margin-top: 40px;
+    text-align: center;
+}
+
+/* 
+hero
+*/
+.hero {
+    width: 100vw;
+    height: 100vw;
+    position: relative;
+    overflow: hidden;
+}
+.hero > strong {
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 120px;
+    color: #fff;
+    font-weight: bold;
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+hero > video {
+    position: absolute;
+    z-index: 1;
+    width: auto;
+    height: 105%;
+}
+
+/* 
+about 
+*/
 .about {
     margin: 0;
     display: flex;
 }
+/* 
+about-image 
+*/
 .about-caption {
     padding-left: 15px;
 }
@@ -66,12 +106,6 @@ section
     margin: 0 0 20px;
     font-size: 30px;
 }
-.section-button {
-    margin-top: 40px;
-    text-align: center;
-}
-
-
 
 /* 
 feature 
@@ -233,4 +267,48 @@ works
 }
 .works > img {
     margin: 0 15px;
+}
+
+/* 
+fotter 
+*/
+.footer {
+    background-color: #333;
+    color: #fff;
+}
+.footer-map {
+    margin: 0;
+    padding: 40px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-map > iframe {
+    width: 60%
+}
+.footer-mapinfo {
+    width: 40%;
+    padding: 15px;
+}
+.footer-maplogo {
+    font-size: 25px;
+    font-weight: bold;
+}
+.footer-maplogo > svg {
+    fill: transparent;
+    margin-right: 10px;
+}
+.footer-mapaddress {
+    font-style: normal;
+}
+.footer-mapaddress > a {
+    color: #fff;
+}
+.fotter-line {
+    border-color: #444;
+}
+.footer-copy {
+    display: block;
+    text-align: center;
+    padding: 10px;
 }

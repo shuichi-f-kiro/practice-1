@@ -11,7 +11,7 @@ body {
     line-height: 1.5;
     color: #333;
 }
-label, input, textarea, select, select, button {
+label, input, textarea, select, button {
     cursor: pointer;
 } 
 button {
@@ -44,13 +44,14 @@ grid
     .grid{
         display: block;
     }
-    .grid-col-2 > .grid-item 
-    .grid-col-3 > .grid-item
+    .grid-col-2 > .grid-item,
+    .grid-col-3 > .grid-item,
     .grid-col-4 > .grid-item {
         width: 100%;
         margin: 20px 0;
     }
 }
+
 
 
 /* 
@@ -59,8 +60,8 @@ section
 .section {
     padding: 30px 15px;
 }
-.section.section-secondary {
-    background-color: #efefef;
+.section.section-secounday {
+    background: hsl(0, 0%, 94%);
 }
 .section-headline {
     text-align: center;
@@ -76,7 +77,7 @@ section
     .section {
         padding: 20px 10px;
     }
-    .about-headline {
+    .section-headline {
         font-size: 30px;
         margin: 0 0 20px;
     }
@@ -138,7 +139,7 @@ hero
 */
 .hero {
     width: 100vw;
-    height: 100vw;
+    height: 100vh;
     position: relative;
     overflow: hidden;
 }
@@ -155,7 +156,7 @@ hero
     width: 100%;
     text-align: center;
 }
-hero > video {
+.hero > video {
     position: absolute;
     z-index: 1;
     width: auto;
@@ -235,7 +236,7 @@ card
     color: #333;
     text-decoration: none;
     position: relative;
-    transition: background-color .25;
+    transition: background-color .25s;
 }
 .card-link:hover {
     background-color: #eee;
@@ -281,7 +282,7 @@ avator
 }
 .avator-image {
     margin: 0;
-    border-radius: 5px;
+    border-radius: 50%;
     overflow: hidden;
 }
 
@@ -309,7 +310,7 @@ button
 }
 
 /* 
-.selct, .input, .radio, .textarea 
+.select, .input, .radio, .textarea 
 */
 .select {
     border-radius: 5px;
@@ -351,14 +352,14 @@ form
 }
 /* .form-table tr {} */
 .form-table th {
-    padding: 01px;
+    padding: 10px;
     text-align: left;
 }
 .form-table td {
     padding: 10px;
 }
 .form-button {
-    margin: 20px;
+    margin-top: 20px;
     text-align: center;
 }
 @media screen and (max-width: 768px){
@@ -408,7 +409,7 @@ fotter
     justify-content: center;
 }
 .footer-map > iframe {
-    width: 60%
+    width: 60%;
 }
 .footer-mapinfo {
     width: 40%;
@@ -428,7 +429,7 @@ fotter
 .footer-mapaddress > a {
     color: #fff;
 }
-.fotter-line {
+.footer-line {
     border-color: #444;
 }
 .footer-copy {

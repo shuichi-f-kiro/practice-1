@@ -7,22 +7,20 @@
     <title>BugFix Web Page</title>
     <meta name="description" content="sample text sample text sample text sample text sample text sample text ...">
 
-
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
-
+    
     <link rel="stylesheet" href="./assets/css/sanitize.css">
     <link rel="stylesheet" href="./assets/css/style.css">
-
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicon/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon/favicon-16x16.png">
-<link rel="manifest" href="assets/images/favicon/site.webmanifest">
-<link rel="mask-icon" href="assets/images/favicon/safari-pinned-tab.svg" color="#5bbad5">
-<meta name="msapplication-TileColor" content="#da532c">
-<meta name="theme-color" content="#ffffff">
     
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/assets/images/favicon/site.webmanifest">
+    <link rel="mask-icon" href="/assets/images/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">    
 </head>
 <body>
 
@@ -33,6 +31,7 @@
             <source src="assets/videos/hero.mp4" type="video/mp4">
         </video>
     </div>
+    
     <header class="header">
         <h1 class="header-logo">
             <a href="#">
@@ -70,12 +69,12 @@
             <figcaption class="about-caption">
                 <h2 class="about-headline">What can we do?</h2>
                 <p class="about-description">
-                    Text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text</br> 
-                    Text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text</br>
-                    </br>
-                    Text text text text text text text text text text text text text</br> 
-                    Text text text text text text text text text text text text text text text text</br>
-                    Text text text text text text text text text text text text text</br> 
+                    Text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text<br/> 
+                    Text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text<br/>
+                    <br/>
+                    Text text text text text text text text text text text text text<br/> 
+                    Text text text text text text text text text text text text text text text text<br/>
+                    Text text text text text text text text text text text text text<br/> 
                 </p>
             </figcaption>
         </figure>
@@ -132,8 +131,8 @@
             <li class="grid-item">
                 <article class="card">
                     <a href="#" class="card-link">
-                        <span class="card-link">New</span>
-                        <img src="https://dummyimage.com/200x100/000/fff" alt="thumbnail">
+                        <span class="card-label">New</span>
+                        <img class="card-image" src="https://dummyimage.com/200x100/000/fff" alt="thumbnail">
                         <div class="card-info">
                             <time class="card-time" datetime="2024-02-06">2024.02.06</time>
                             <h1 class="card-headline">Title text text text text text text text text</h1>
@@ -152,11 +151,11 @@
                 <article class="card">
                     <a href="#" class="card-link">
                         <span class="card-label">New</span>
-                        <img src="https://dummyimage.com/200x100/000/fff" alt="thumbnail">
+                        <img class="card-image" src="https://dummyimage.com/200x100/000/fff" alt="thumbnail">
                         <div class="card-info">
                             <time class="card-time" datetime="2024-02-06">2024.02.06</time>
                             <h1 class="card-headline">Title text text text text text text text text</h1>
-                            <p class=card-description>Text text text text text text text text text text text text text...</p>
+                            <p class="card-description">Text text text text text text text text text text text text text...</p>
                         </div>
                         <dl class="avator">
                             <dt class="avator-name">Shuichi</dt>
@@ -171,11 +170,11 @@
                 <article class="card">
                     <a href="#" class="card-link">
                         <span class="card-label">New</span>
-                        <img src="https://dummyimage.com/200x100/000/fff" alt="thumbnail">
+                        <img class="card-image" src="https://dummyimage.com/200x100/000/fff" alt="thumbnail">
                         <div class="card-info">
                             <time class="card-time" datetime="2024-02-06">2024.02.06</time>
                             <h1 class="card-headline">Title text text text text text text text text</h1>
-                            <p class=card-description>Text text text text text text text text text text text text text...</p>
+                            <p class="card-description">Text text text text text text text text text text text text text...</p>
                         </div>
                         <dl class="avator">
                             <dt class="avator-name">Shuichi</dt>
@@ -192,8 +191,7 @@
             <a href="#" class="button">
                 Blog Page
             </a>
-        </div>
-        
+        </div> 
     </section>
 
     <section class="section section-secondary">
@@ -247,7 +245,7 @@
                             <input type="radio" name="gender" value="female">Female
                         </label>
                         <label class="radio">
-                            <input type="radio" name="gender" value="other">other
+                            <input type="radio" name="gender" value="other">Other
                         </label>
                     </td>
                 </tr>
@@ -268,11 +266,11 @@
     </section>
 
     <aside class="works">
-        <img src="https://dummyimage.com/150x80]/ccc/fff" alt="logo">
-        <img src="https://dummyimage.com/150x80]/ccc/fff" alt="logo">
-        <img src="https://dummyimage.com/150x80]/ccc/fff" alt="logo">
-        <img src="https://dummyimage.com/150x80]/ccc/fff" alt="logo">
-        <img src="https://dummyimage.com/150x80]/ccc/fff" alt="logo">
+        <img src="https://dummyimage.com/150x80/ccc/fff" alt="logo">
+        <img src="https://dummyimage.com/150x80/ccc/fff" alt="logo">
+        <img src="https://dummyimage.com/150x80/ccc/fff" alt="logo">
+        <img src="https://dummyimage.com/150x80/ccc/fff" alt="logo">
+        <img src="https://dummyimage.com/150x80/ccc/fff" alt="logo">
     </aside>
 
     <footer class="footer">
@@ -284,12 +282,12 @@
                     BugFix Inc.
                 </div>
                 <address class="footer-mapaddress">
-                    〒100-0000 東京都千代田区丸の内 1-1-1</br>
+                    〒100-0000 東京都千代田区丸の内 1-1-1<br/>
                     <a href="https://goo.gl/maps/5EkqmFaCTd84o2xP6" target="_blank">Google Map</a>
                 </address>
             </figcaption>
         </figure>
-        <hr class="footter-line" />
+        <hr class="footer-line" />
         <small class="footer-copy">Copyright ©BugFix Inc.</small>   
     </footer>
 
